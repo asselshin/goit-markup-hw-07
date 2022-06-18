@@ -2,15 +2,8 @@
 @import './utils/visually-hidden';
 @import './utils/placeholder';
 
-
 @import './base/common';
 @import './base/container';
-
-@import './components/modal-btn';
-@import './components/logo';
-@import './components/subtitle';
-@import './components/description';
-@import './components/social-list';
 
 @import './layout/header';
 @import './layout/hero';
@@ -21,6 +14,12 @@
 @import './layout/footer';
 @import './layout/portfolio';
 @import './layout/modal';
+
+@import './components/modal-btn';
+@import './components/logo';
+@import './components/subtitle';
+@import './components/description';
+@import './components/social-list';
 
 
 
