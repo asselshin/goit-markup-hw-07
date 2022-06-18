@@ -18,7 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css">
   </head>
   <body>
     <!-- HEADER -->
@@ -71,7 +71,7 @@
       <section class="feature">
         <div class="container">
           <h2 class="subtitle visually-hidden">Наша характеристика</h2>
-          <ul class="feature__list list">
+          <ul class="list">
             <li class="feature__item">
               <div class="feature__wrapper">
                 <svg class="feature__icon" width="70" height="70">
@@ -122,7 +122,7 @@
       <section class="work">
         <div class="container">
           <h2 class="subtitle">Чем мы занимаемся</h2>
-          <ul class="list work__list">
+          <ul class="list">
             <li class="work__item">
               <img
                 src="./images/our-work/layout.jpg"
@@ -156,12 +156,12 @@
       <section class="team">
         <div class="container">
           <h2 class="subtitle">Наша команда</h2>
-          <ul class="list team__list">
+          <ul class="list">
             <li class="team__item">
               <div class="team__wrapper">
                 <img src="./images/team/igor.jpg" alt="Игорь Демьяненко" width="270" height="260" />
                 <div class="team__card">
-                  <h3 class="team-title">Игорь Демьяненко</h3>
+                  <h3 class="team__title">Игорь Демьяненко</h3>
                   <p class="description team__description" lang="en">Product Designer</p>
                   <ul class="social-list list">
                     <li class="social-list__item">
@@ -200,7 +200,7 @@
               <div class="team__wrapper">
                 <img src="./images/team/olga.jpg" alt="Ольга Репина" width="270" height="260" />
                 <div class="team__card">
-                  <h3 class="team-title">Ольга Репина</h3>
+                  <h3 class="team__title">Ольга Репина</h3>
                   <p class="description team__description" lang="en">Frontend Developer</p>
                   <ul class="social-list list">
                     <li class="social-list__item">
@@ -244,7 +244,7 @@
                   height="260"
                 />
                 <div class="team__card">
-                  <h3 class="team-title">Николай Тарасов</h3>
+                  <h3 class="team__title">Николай Тарасов</h3>
                   <p class="description team__description" lang="en">Marketing</p>
                   <ul class="social-list list">
                     <li class="social-list__item">
@@ -288,7 +288,7 @@
                   height="260"
                 />
                 <div class="team__card">
-                  <h3 class="team-title">Михаил Ермаков</h3>
+                  <h3 class="team__title">Михаил Ермаков</h3>
                   <p class="description team__description" lang="en">UI Designer</p>
                   <ul class="social-list list">
                     <li class="social-list__item">
@@ -329,7 +329,7 @@
       <section class="clients">
         <div class="container">
           <h3 class="subtitle">Постоянные клиенты</h3>
-          <ul class="clients__list list">
+          <ul class="list">
             <li class="clients__item">
               <a href="" class="clients__link">
                 <svg class="clients__icon" width="106" height="60">
@@ -379,8 +379,8 @@
     <!-- Footer -->
     <footer class="page-footer">
       <div class="container page-footer__container">
-        <div class="page-footer__adress">
-          <a class="logo page-footer__logo link white-theme" href="" lang="en">
+        <div class="page-footer__address">
+          <a class="logo page-footer__logo link" href="" lang="en">
             <span class="logo logo--accent">Web</span>Studio
           </a>
           <address>
@@ -408,7 +408,7 @@
           </address>
         </div>
         <div class="social-box">
-          <p class="footer-title white-theme">присоединяйтесь</p>
+          <p class="page-footer__title white-theme">присоединяйтесь</p>
           <ul class="social-list list">
             <li class="social-list__item">
               <a href="" class="social-list__link">
@@ -441,7 +441,7 @@
           </ul>
         </div>
         <div class="newsletter-box">
-          <p class="footer-title white-theme">Подпишитесь на рассылку</p>
+          <p class="page-footer__title white-theme">Подпишитесь на рассылку</p>
           <form class="newsletter-form">
             <input class="newsletter-form__input"
               type="email"
@@ -453,7 +453,7 @@
             />
             <button class="btn newsletter-form__btn" type="submit">
               Подписаться
-              <svg class="newsletter__icon" width="24" height="24">
+              <svg class="newsletter-form__icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
