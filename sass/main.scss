@@ -5,6 +5,10 @@
 @import './base/common';
 @import './base/container';
 
+@import './components/modal-btn';
+@import './components/logo';
+@import './components/subtitle';
+
 @import './layout/header';
 @import './layout/hero';
 @import './layout/feature';
@@ -15,11 +19,8 @@
 @import './layout/portfolio';
 @import './layout/modal';
 
-@import './components/modal-btn';
-@import './components/logo';
-@import './components/subtitle';
-@import './components/description';
 @import './components/social-list';
+@import './components/description';
 
 
 
