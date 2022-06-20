@@ -2,6 +2,10 @@
     justify-content: center;
 }
 
+.social-list__item:not(:last-child) {
+    margin-right: 10px;
+}
+
 .social-list__link {
     display: flex;
     width: 44px;
@@ -19,10 +23,6 @@
     &:focus {
         background-color: var(--accent-color);
     }
-}
-
-.social-list__item:not(:last-child) {
-    margin-right: 10px;
 }
 
 .social-list__icon {
